@@ -116,7 +116,6 @@ PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/bin/rild:system/bin/rild \
   vendor/actions/gs702a/proprietary/bin/dosfslabel:system/bin/dosfslabel \
   vendor/actions/gs702a/proprietary/framework/actions.jar:system/framework/actions.jar \
-  vendor/actions/gs702a/proprietary/app/ActSensorCalib.apk:system/app/ActSensorCalib.apk \
   vendor/actions/gs702a/proprietary/xbin/iostat:system/xbin/iostat \
   vendor/actions/gs702a/proprietary/xbin/e2fsck:system/xbin/e2fsck \
   vendor/actions/gs702a/proprietary/xbin/usb_modeswitch:system/xbin/usb_modeswitch \
