@@ -1,6 +1,12 @@
 # Copyright (C) 2018 darktohka
 
 PRODUCT_COPY_FILES += \
+  vendor/actions/gs702a/proprietary/etc/gpu_config:system/etc/gpu_config \
+  vendor/actions/gs702a/proprietary/etc/init.goldfish.sh:system/etc/init.goldfish.sh \
+  vendor/actions/gs702a/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
+  vendor/actions/gs702a/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
+  vendor/actions/gs702a/proprietary/etc/mkshrc:system/etc/mkshrc \
+  vendor/actions/gs702a/proprietary/etc/omx_codec.xml:system/etc/omx_codec.xml \
   vendor/actions/gs702a/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
   vendor/actions/gs702a/proprietary/lib/libETC1.so:system/lib/libETC1.so \
   vendor/actions/gs702a/proprietary/lib/libFFTEm.so:system/lib/libFFTEm.so \
@@ -14,6 +20,7 @@ PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
   vendor/actions/gs702a/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/actions/gs702a/proprietary/lib/librs_jni.so:system/lib/librs_jni.so \
+  vendor/actions/gs702a/proprietary/lib/libutils.so:system/lib/libutils.so \
   vendor/actions/gs702a/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/actions/gs702a/proprietary/lib/apMP3.so:system/lib/apMP3.so \
   vendor/actions/gs702a/proprietary/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
