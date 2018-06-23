@@ -9,6 +9,8 @@ PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/etc/omx_codec.xml:system/etc/omx_codec.xml \
   vendor/actions/gs702a/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
   vendor/actions/gs702a/proprietary/lib/libETC1.so:system/lib/libETC1.so \
+  vendor/actions/gs702a/proprietary/lib/libhardware.so:system/lib/libhardware.so \
+  vendor/actions/gs702a/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
   vendor/actions/gs702a/proprietary/lib/libFFTEm.so:system/lib/libFFTEm.so \
   vendor/actions/gs702a/proprietary/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
   vendor/actions/gs702a/proprietary/lib/libRS.so:system/lib/libRS.so \
