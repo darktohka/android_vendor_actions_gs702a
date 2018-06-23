@@ -1,6 +1,19 @@
 # Copyright (C) 2018 darktohka
 
 PRODUCT_COPY_FILES += \
+  vendor/actions/gs702a/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
+  vendor/actions/gs702a/proprietary/lib/libETC1.so:system/lib/libETC1.so \
+  vendor/actions/gs702a/proprietary/lib/libFFTEm.so:system/lib/libFFTEm.so \
+  vendor/actions/gs702a/proprietary/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
+  vendor/actions/gs702a/proprietary/lib/libRS.so:system/lib/libRS.so \
+  vendor/actions/gs702a/proprietary/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
+  vendor/actions/gs702a/proprietary/lib/libdrm1.so:system/lib/libdrm1.so \
+  vendor/actions/gs702a/proprietary/lib/libdrm1_jni.so:system/lib/libdrm1_jni.so \
+  vendor/actions/gs702a/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
+  vendor/actions/gs702a/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
+  vendor/actions/gs702a/proprietary/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
+  vendor/actions/gs702a/proprietary/lib/libril.so:system/lib/libril.so \
+  vendor/actions/gs702a/proprietary/lib/librs_jni.so:system/lib/librs_jni.so \
   vendor/actions/gs702a/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/actions/gs702a/proprietary/lib/apMP3.so:system/lib/apMP3.so \
   vendor/actions/gs702a/proprietary/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
